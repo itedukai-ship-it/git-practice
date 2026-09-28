@@ -6,6 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="/login-endpoint" method="POST">
+  <div>
+    <label for="username">Логин или Email:</label>
+    <input type="text" id="username" name="username" required>
+  </div>
+  <br>
+  <div>
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required>
+  </div>
+  <br>
+  <button type="submit">Войти</button>
+</form>
 </body>
 </html>
